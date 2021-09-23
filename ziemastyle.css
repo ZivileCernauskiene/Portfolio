@@ -1,0 +1,84 @@
+* {
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://2.bp.blogspot.com/-SUMDIuZ7m48/TeWj1YDWcNI/AAAAAAAABhg/9fjPiDZHwms/s1600/winter.JPG");
+    /* position: fixed; */
+}
+
+.top {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100vmax;
+    align-items: center;
+    padding: 1%;
+}
+
+.top button,
+img {
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.top button {
+    opacity: 0.5;
+    margin: 5px;
+}
+
+.Mainview {
+    opacity: 1;
+    display: flex;
+    height: 90vh;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}
+
+.Mainview h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+#superbtn {
+    display: flex;
+    justify-content: center;
+}
+
+#superbtn button {
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+    color: #aaa;
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+#superbtn button:hover {
+    color: teal;
+}
+
+.whiteText {
+    background-color: white;
+    color: black;
+}
+
+.whiteText p,
+.blankText p {
+    word-wrap: normal;
+    font-size: 25px;
+    line-height: 1.15;
+    font-family: sans-serif;
+    padding: 0px 15px;
+    text-align: justify;
+    text-indent: 2em;
+    margin: 0px 10px;
+}
+
+.blankText {
+    background-color: rgba(255, 255, 255, 0.5);
+}
