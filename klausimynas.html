@@ -24,9 +24,11 @@
 
     <div class="main">
 
-        <h1>This is a Quiz</h1>
-
-        <div class="kl1" style="display: none;">
+        <h1>Klausimynas</h1>
+        <div class="start">
+            <button onclick="start()">Pradėti</button>
+        </div>
+        <div class="kl1">
             <p>Pirmas klausimas</p>
 
             <div>
@@ -35,11 +37,11 @@
             </div>
 
             <div>
-                <input type="radio" name="kl1" id="ne1">
+                <input type="radio" id="ne1" name="kl1">
                 <label for="ne1">Atsakymas2</label>
             </div>
             <div>
-                <input type="radio" name="kl1" id="ne11">
+                <input type="radio" id="ne11" name="kl1">
                 <label for="ne11">Atsakymas3</label>
             </div>
             <div>
@@ -49,10 +51,84 @@
             <button onclick="funk1()">Kitas klausimas</button>
 
         </div>
+
+        <div class="kl1">
+            <p>Antras klausimas</p>
+
+            <div>
+                <input type="radio" id="kl2taip" name="kl2">
+                <label for="kl2taip">Atsakymas1</label>
+            </div>
+
+            <div>
+                <input type="radio" id="ne2" name="kl2">
+                <label for="ne2">Atsakymas2</label>
+            </div>
+            <div>
+                <input type="radio" id="ne22" name="kl2">
+                <label for="ne22">Atsakymas3</label>
+            </div>
+            <div>
+                <input type="radio" name="kl2" id="ne23">
+                <label for="ne23">Atsakymas4</label>
+            </div>
+            <button onclick="funk1()">Kitas klausimas</button>
+
+        </div>
+
+        <div class="kl1">
+            <p>Trecias klausimas</p>
+
+            <div>
+                <input type="radio" id="kl3taip" name="kl3">
+                <label for="kl3taip">Atsakymas1</label>
+            </div>
+
+            <div>
+                <input type="radio" id="ne3" name="kl3">
+                <label for="ne3">Atsakymas2</label>
+            </div>
+            <div>
+                <input type="radio" id="ne33" name="kl3">
+                <label for="ne33">Atsakymas3</label>
+            </div>
+            <div>
+                <input type="radio" name="kl3" id="ne34">
+                <label for="ne34">Atsakymas4</label>
+            </div>
+            <button onclick="funk1()">Kitas klausimas</button>
+
+        </div>
+
+        <div class="kl1">
+            <p>Ketvirtas klausimas</p>
+
+            <div>
+                <input type="radio" id="kl4taip" name="kl4">
+                <label for="kl1taip">Atsakymas1</label>
+            </div>
+
+            <div>
+                <input type="radio" id="ne4" name="kl4">
+                <label for="ne4">Atsakymas2</label>
+            </div>
+            <div>
+                <input type="radio" id="ne44" name="kl4">
+                <label for="ne44">Atsakymas3</label>
+            </div>
+            <div>
+                <input type="radio" name="kl4" id="ne45">
+                <label for="ne45">Atsakymas4</label>
+            </div>
+            <button onclick="funk1()">Kitas klausimas</button>
+
+        </div>
+
         <div class="error">
             <h1>Jūs suklydote</h1>
             <p>Bandykite dar kartą</p>
-            <button>Iš naujo</button>
+            <button onclick="restart()">Iš naujo</button>
+            <button onclick="Homepage()">Pradinis puslapis</button>
 
 
         </div>

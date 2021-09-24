@@ -45,6 +45,11 @@ body {
 .main h1 {
     font-size: 50px;
     margin: 30px;
+    background: linear-gradient(to right, #160202e8 0%, #5f13bd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 8px;
+    font-size: 60px;
 }
 
 .kl1 {
@@ -52,6 +57,7 @@ body {
     height: 30vh;
     justify-content: space-around;
     flex-direction: column;
+    display: none;
 }
 
 .kl1 p {
@@ -87,6 +93,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    display: none;
 }
 
 .error p {
@@ -95,8 +102,9 @@ body {
     margin: 10px;
 }
 
-.error button {
-    height: 100px;
+.error button,
+.start button {
+    height: 80px;
     width: 150px;
     margin: 10px;
     background-color: rgb(32, 21, 21);
