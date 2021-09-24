@@ -11,12 +11,14 @@
 
 <body>
     <div class="side">
-        <button>nuoroda1</button>
-        <button>nuoroda1</button>
-        <button>nuoroda1</button>
-        <button>nuoroda1</button>
-        <button>nuoroda1</button>
-        <button>nuoroda1</button>
+
+        <a href="index.html"><button>Namai</button></a>
+        <a href="https://barbora.lt/" target="_blank"><button>Barbora.lt</button></a>
+        <a href="https://www.google.com/" target="_blank"><button>Google.com</button></a>
+        <a href="https://www.facebook.com/" target="_blank"><button>Facebook.com</button></a>
+        <a href="https://www.delfi.lt" target="_blank"><button>Delfi.lt</button></a>
+        <a target="_blank" href="https://www.lrt.lt"><button>Lrt.lt</button></a>
+
     </div>
 
 
@@ -25,7 +27,7 @@
     <div class="main">
 
         <h1>Klausimynas</h1>
-        <div class="start">
+        <div class="start" style="display: none;">
             <button onclick="start()">Pradėti</button>
         </div>
         <div class="kl1">
@@ -33,7 +35,7 @@
 
             <div>
                 <input type="radio" id="kl1taip" name="kl1">
-                <label for="kl1taip">Atsakymas1</label>
+                <label for="kl1taip">teisingas</label>
             </div>
 
             <div>
@@ -57,7 +59,7 @@
 
             <div>
                 <input type="radio" id="kl2taip" name="kl2">
-                <label for="kl2taip">Atsakymas1</label>
+                <label for="kl2taip">teisingas</label>
             </div>
 
             <div>
@@ -81,7 +83,7 @@
 
             <div>
                 <input type="radio" id="kl3taip" name="kl3">
-                <label for="kl3taip">Atsakymas1</label>
+                <label for="kl3taip">teisingas</label>
             </div>
 
             <div>
@@ -105,7 +107,7 @@
 
             <div>
                 <input type="radio" id="kl4taip" name="kl4">
-                <label for="kl1taip">Atsakymas1</label>
+                <label for="kl4taip">teisingas</label>
             </div>
 
             <div>
@@ -122,6 +124,11 @@
             </div>
             <button onclick="funk1()">Kitas klausimas</button>
 
+
+
+        </div>
+        <div class="kl1">
+            <button onclick="end()">Pabaiga</button>
         </div>
 
         <div class="error">
@@ -129,8 +136,11 @@
             <p>Bandykite dar kartą</p>
             <button onclick="restart()">Iš naujo</button>
             <button onclick="Homepage()">Pradinis puslapis</button>
+        </div>
 
-
+        <div class="pabaiga" style="display: flex;">
+            <h1>Sveikiname Jūs laimėjote</h1>
+            <button onclick="Homepage()">Home</button>
         </div>
 
         <div></div>

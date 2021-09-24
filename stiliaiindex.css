@@ -11,7 +11,7 @@
             .div1 {
                 width: 50vh;
                 height: 100vh;
-                justify-content: center;
+                justify-content: space-around;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -23,10 +23,15 @@
                 font-size: 40px;
                 margin: 10px;
                 justify-content: center;
+                background: linear-gradient(to right, #065313e8 0%, #a76eec 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
             
             .div1 p {
                 margin: 20px;
+                font-size: 20px;
+                color: indigo;
             }
             
             .links {
